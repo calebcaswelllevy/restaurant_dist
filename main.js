@@ -142,7 +142,7 @@
     function makeFooter() {
         var content = document.getElementById("content");
         var footer = document.createElement('div');
-        footer.innerHTML = '<a href="www.calebcaswelllevy.gitub.io">Website developed by Caleb Caswell-Levy</a>';
+        footer.innerHTML = '<a href="https://calebcaswelllevy.gitub.io">Website developed by Caleb Caswell-Levy</a>';
         footer.id = "footer";
         content.appendChild(footer);
     }
