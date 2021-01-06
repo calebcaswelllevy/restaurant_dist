@@ -69,7 +69,7 @@
         menuFront.classList.add('menu');
         var menuBack = document.createElement('img');
         //try out one directory back
-        menuBack.setAttribute('src', '../images/menuBack.jpg');
+        menuBack.setAttribute('src', '/images/menuBack.jpg');
         menuBack.setAttribute('alt', 'An image of the back of the menu');
         menuBack.classList.add('menu');
         //Add it to the DOM
