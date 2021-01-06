@@ -130,7 +130,7 @@
             var mainImage = document.createElement('img');
             mainImage.classList.add('main-image');
             mainImage.id = 'main-image';
-            mainImage.setAttribute("src", "/images/main.png");
+            mainImage.setAttribute("src", "images/main.png");
             content.appendChild(mainImage);
             // Add some text
         })();
@@ -262,7 +262,7 @@
             //Add content to elements
             text.textContent = dish.name + " - $" + dish.price + ".00";
             image.setAttribute('alt', "A photo of " + dish.name);
-            image.setAttribute('src', "/images/" + dish.alias + ".png");
+            image.setAttribute('src', "images/" + dish.alias + ".png");
             //Add dish HTML elements to display
             item.appendChild(image);
             item.appendChild(text);
