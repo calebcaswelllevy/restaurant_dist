@@ -64,7 +64,7 @@
         //Add images of the menu:
         var menuFront = document.createElement('img');
         // try out root
-        menuFront.setAttribute('src', 'https://calebcaswelllevy.github.io/restaurant_dist/images/menuBack.jpg');
+        menuFront.setAttribute('src', 'https://calebcaswelllevy.github.io/restaurant_dist/images/Menufront.jpg');
         menuFront.setAttribute('alt', 'An image of the front of the menu');
         menuFront.classList.add('menu');
         var menuBack = document.createElement('img');
